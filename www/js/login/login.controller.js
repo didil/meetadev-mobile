@@ -1,8 +1,15 @@
 'use strict';
 
 angular.module('meetadev-mobile')
-  .controller('LoginCtrl', function ($scope, Auth, $state,$ionicPopup) {
+  .controller('LoginCtrl', function ($scope, Auth, $state,$ionicPopup,$http) {
     $scope.user = {};
+
+    $http.get("http://ip.jsontest.com/ ").then(function(response){
+      $ionicPopup.alert({
+        title: 'Call ok',
+        template: response.data.ip
+      });
+    });
 
     $scope.login = function (loginForm) {
       $scope.submitted = true;
