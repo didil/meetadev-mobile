@@ -1,0 +1,10 @@
+<ion-view view-title="Matches">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-left item-text-wrap" ng-repeat="match in matches track by match._id"  href>
+        <i class="icon ion-flash"></i>
+        <h2>Freelancer <span class="positive">{{match.freelancer.firstName}} {{match.freelancer.lastName}}</span> matched with project <span class="balanced">{{match.project.title}}</span></h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
