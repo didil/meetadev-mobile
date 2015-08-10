@@ -1,6 +1,19 @@
 angular.module('meetadev-mobile')
 
-  .controller('DashCtrl', function ($scope) {
+  .controller('DashCtrl', function ($scope, Auth, $state,$ionicHistory) {
+    $scope.$on('$ionicView.enter', function (e) {
+      $ionicHistory.nextViewOptions({
+        disableAnimate: true,
+        disableBack: true
+      });
+
+      if (Auth.isFreelancer()) {
+        $state.go('tab.freelancer-dash');
+      }
+      else if (Auth.isClient()) {
+        $state.go('tab.client-dash');
+      }
+    });
   })
 
   .controller('ChatsCtrl', function ($scope, Chats) {
@@ -22,7 +35,7 @@ angular.module('meetadev-mobile')
     $scope.chat = Chats.get($stateParams.chatId);
   })
 
-  .controller('AccountCtrl', function ($scope,Auth,$state) {
+  .controller('AccountCtrl', function ($scope, Auth, $state) {
     $scope.settings = {
       enableFriends: true
     };

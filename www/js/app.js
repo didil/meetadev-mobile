@@ -5,6 +5,9 @@ angular.module('meetadev-mobile', [
   'ionic',
   'ngStorage',
   'ngResource',
+  'ionic.contrib.ui.tinderCards',
+  'angularMoment',
+  'ui.gravatar'
 ])
 
 

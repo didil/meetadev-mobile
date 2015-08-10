@@ -1,0 +1,48 @@
+<ion-view view-title="Discover Projects">
+  <ion-content class="padding">
+    <td-cards>
+      <td-card ng-repeat="project in projects" on-destroy="cardDestroyed($index)" on-swipe-left="cardSwipedLeft(project)" on-swipe-right="cardSwipedRight(project)" ng-show="$index ===0">
+        <div class="list card">
+
+          <div class="item">
+            <h2>{{project.title}}</h2>
+          </div>
+
+          <div class="item item-avatar">
+            <img gravatar-src="project.owner.email" gravatar-size="40">
+            <h2>{{project.owner.firstName}} {{project.owner.lastName}}</h2>
+            <p>Posted <span am-time-ago="project.createdAt"></span>  </p>
+          </div>
+
+          <div class="item item-body">
+            <p>
+              {{project.description}}
+            </p>
+            <p>
+              <a href="#" class="subdued" ng-repeat="skill in project.skills">{{skill}}</a>
+            </p>
+          </div>
+
+          <div class="item tabs tabs-secondary tabs-icon-left">
+            <a class="tab-item" href ng-click="likeClicked($index)">
+              <i class="icon ion-thumbsup"></i>
+              Like
+            </a>
+            <a class="tab-item" href ng-click="dislikeClicked($index)">
+              <i class="icon ion-thumbsdown"></i>
+              Not interested
+            </a>
+          </div>
+
+        </div>
+      </td-card>
+    </td-cards>
+
+    <div class="card" ng-show="projects.length === 0 && !searching">
+      <div class="item item-text-wrap item-royal">
+        There aren't any new projects available right now, please try again later ...
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>
