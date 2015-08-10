@@ -2,19 +2,616 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb8c41a-0e96-4491-a9ba-273862ddee04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/freelancer/dash/dash.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/freelancer/dash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/freelancer/dash/dash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/components/project.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/login/login.controller.js" afterPath="$PROJECT_DIR$/www/js/login/login.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-dash.html" afterPath="$PROJECT_DIR$/www/templates/tab-dash.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/meetadev_mobile_node_modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/meetadev-mobile.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ionic.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/splash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/ionic.app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/ionic.app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/ionic.app.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/ionic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/components/auth.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/components/project.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/components/user.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/freelancer/dash/dash.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/freelancer/dash/dash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/login/login.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-animate/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-animate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-animate/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-animate/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/build/angular-gravatar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-gravatar/build/angular-gravatar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/angular-moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/angular-moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/angular-moment.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/angular-moment.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-moment/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-resource/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-resource/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-resource/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-resource/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-resource/angular-resource.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-resource/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-resource/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-resource/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/api/angular-ui-router.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/templateFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlMatcherFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/angular/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/collide/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/collide/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/collide/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/collide/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/collide/collide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/collide/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/demo/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/demo/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/demo/ben.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/demo/max.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/demo/perry.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/ionic.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/merges/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/img/ionic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/img/pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/img/pic2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/img/pic3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/img/pic4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/css/ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/css/ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular-ui/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular-ui/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/lib/js/ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/android/icon-36-ldpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/android/icon-48-mdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/android/icon-72-hdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/android/icon-96-xhdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/bada-wac/icon-48-type5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/bada-wac/icon-50-type3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/bada-wac/icon-80-type4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/bada/icon-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/blackberry/icon-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/ios/icon-57-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/ios/icon-57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/ios/icon-72-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/ios/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/tizen/icon-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/webos/icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/windows-phone/icon-173-tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/windows-phone/icon-48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/icon/windows-phone/icon-62-tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/android/screen-hdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/android/screen-hdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/android/screen-ldpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/android/screen-ldpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/android/screen-mdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/android/screen-mdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/android/screen-xhdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/android/screen-xhdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/bada-wac/screen-type3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/bada-wac/screen-type4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/bada-wac/screen-type5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/bada/screen-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/blackberry/screen-225.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/ios/screen-ipad-landscape-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/ios/screen-ipad-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/ios/screen-ipad-portrait-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/ios/screen-ipad-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/ios/screen-iphone-landscape-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/ios/screen-iphone-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/ios/screen-iphone-portrait-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/ios/screen-iphone-portrait-568h-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/ios/screen-iphone-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/tizen/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/webos/screen-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/res/screen/windows-phone/screen-portrait.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/templates/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/templates/adopt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/templates/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/templates/pet-detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/templates/pet-index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/example/www/templates/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/ionic.tdcards.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic-contrib-tinder-cards/ionic.tdcards.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_loaders.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_split-pane.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ar-ma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ar-sa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ar-tn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/bo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/cv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/de-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/fy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/hy-am.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/jv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/me.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/mr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ms-my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ne.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/nn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/sr-cyrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/tl-ph.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/tzl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/tzm-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/tzm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/uz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/locale/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/min/locales.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/min/locales.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/min/moment-with-locales.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/min/moment-with-locales.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/min/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/min/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/check-overflow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/date-from-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/from-anything.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/from-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/from-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/from-string-and-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/from-string-and-format.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/from-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/local.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/parsing-flags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/utc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/create/valid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/abs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/add-subtract.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/as.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/bubble.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/duration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/humanize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/iso-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/duration/prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/format/format.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/formats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/invalid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/lists.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/locale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/locales.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/ordinal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/pre-post-format.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/relative.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/locale/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/add-subtract.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/clone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/compare.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/diff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/format.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/get-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/locale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/min-max.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/start-end-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/to-type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/to.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/moment/valid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/parse/regex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/parse/token.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/aliases.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/day-of-month.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/day-of-week.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/day-of-year.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/hour.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/millisecond.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/minute.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/month.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/quarter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/second.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/timestamp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/timezone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/units.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/week-year.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/week.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/units/year.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/abs-ceil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/abs-floor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/compare-arrays.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/deprecate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/extend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/has-own-prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/is-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/is-date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/to-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/lib/utils/zero-fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ar-ma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ar-sa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ar-tn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/bo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/cv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/de-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/fy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/hy-am.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/jv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/me.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/mr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ms-my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ne.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/nn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/sr-cyrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/tl-ph.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/tzl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/tzm-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/tzm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/uz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/locale/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/src/moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/templates/amd-named.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/templates/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/templates/globals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/templates/locale-header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/moment/templates/test-header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/ngStorage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/ngStorage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngstorage/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/chat-detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/freelancer/dash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/tab-account.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/tab-chats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/tab-dash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="" />
     </list>
     <ignored path="meetadev-mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,11 +672,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dash.controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dash.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/freelancer/dash/dash.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75107294">
+            <state vertical-scroll-proportion="0.0">
               <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12875536">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -95,41 +712,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tab-dash.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/tab-dash.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.625">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat-detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/chat-detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,6 +752,7 @@
         <option value="$PROJECT_DIR$/www/templates/freelancer/dash.html" />
         <option value="$PROJECT_DIR$/www/js/freelancer/dash/dash.controller.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -240,152 +828,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freelancer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freelancer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetadev-mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,22 +975,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platforms/platforms.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -632,6 +1058,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -726,13 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -919,8 +1339,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/freelancer/dash/dash.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75107294">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12875536">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
