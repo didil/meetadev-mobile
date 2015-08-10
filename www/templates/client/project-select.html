@@ -1,0 +1,11 @@
+<ion-view view-title="Project Selection" name="client-project-select-view">
+  <ion-content class="padding">
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="project in projects" type="item-text-wrap" href ng-click="selectProject(project)">
+        <h2>{{project.title}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+
+</ion-view>

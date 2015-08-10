@@ -11,7 +11,7 @@ angular.module('meetadev-mobile')
         $state.go('tab.freelancer-dash');
       }
       else if (Auth.isClient()) {
-        $state.go('tab.client-dash');
+        $state.go('client-project-select');
       }
     });
   })
