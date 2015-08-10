@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('meetadev-mobile')
-  .factory('Auth', function Auth($rootScope, $http, User, $localStorage, $q) {
+  .factory('Auth', function Auth($rootScope, $http, User, $localStorage, $q, API_ENDPOINT) {
     var currentUser = {};
     if ($localStorage.token) {
       currentUser = User.get();
@@ -20,7 +20,7 @@ angular.module('meetadev-mobile')
         var cb = callback || angular.noop;
         var deferred = $q.defer();
 
-        $http.post('/auth/local', {
+        $http.post(API_ENDPOINT + '/auth/local', {
           email: user.email,
           password: user.password
         }).
@@ -45,7 +45,7 @@ angular.module('meetadev-mobile')
        * @param  {Function}
        */
       logout: function () {
-        delete $localStorage.token ;
+        delete $localStorage.token;
         currentUser = {};
       },
 
@@ -124,6 +124,17 @@ angular.module('meetadev-mobile')
           cb(true);
         } else {
           cb(false);
+        }
+      },
+
+      getCurrentUserAsync: function (cb) {
+        if (currentUser.hasOwnProperty('$promise')) {
+          currentUser.$promise.then(function () {
+            cb(currentUser);
+          });
+        }
+        else {
+          cb(currentUser);
         }
       },
 

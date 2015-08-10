@@ -1,22 +1,22 @@
 'use strict';
 
 angular.module('meetadev-mobile')
-  .factory('Project', function ($http) {
+  .factory('Project', function ($http, API_ENDPOINT) {
 
     function search() {
-      return $http.get('/api/projects/match');
+      return $http.get(API_ENDPOINT + '/api/projects/match');
     }
 
     function ok(projectId) {
-      return $http.post('/api/projects/' + projectId + '/ok');
+      return $http.post(API_ENDPOINT + '/api/projects/' + projectId + '/ok');
     }
 
     function nok(projectId) {
-      return $http.post('/api/projects/' + projectId + '/nok');
+      return $http.post(API_ENDPOINT + '/api/projects/' + projectId + '/nok');
     }
 
     function getOwnProjects() {
-      return $http.get('/api/projects');
+      return $http.get(API_ENDPOINT + '/api/projects');
 
     }
 
@@ -24,7 +24,7 @@ angular.module('meetadev-mobile')
       search: search,
       ok: ok,
       nok: nok,
-      getOwnProjects : getOwnProjects
+      getOwnProjects: getOwnProjects
     }
 
   });

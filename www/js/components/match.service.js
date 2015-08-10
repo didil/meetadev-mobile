@@ -1,10 +1,10 @@
 'use strict';
 
 angular.module('meetadev-mobile')
-  .factory('Match', function ($http) {
+  .factory('Match', function ($http, API_ENDPOINT) {
 
     function getMatches() {
-      return $http.get('/api/matches');
+      return $http.get(API_ENDPOINT + '/api/matches');
     }
 
     return {

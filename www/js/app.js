@@ -10,8 +10,10 @@ angular.module('meetadev-mobile', [
   'ui.gravatar'
 ])
 
+  .constant('API_ENDPOINT','http://meetadev.herokuapp.com')
 
-  .config(function ($stateProvider, $urlRouterProvider, $httpProvider) {
+
+  .config(function ($stateProvider, $urlRouterProvider, $httpProvider,gravatarServiceProvider) {
 
     // Ionic uses AngularUI Router which uses the concept of states
     // Learn more here: https://github.com/angular-ui/ui-router
@@ -72,6 +74,9 @@ angular.module('meetadev-mobile', [
     $urlRouterProvider.otherwise('/tab/dash');
 
     $httpProvider.interceptors.push('authInterceptor');
+
+    gravatarServiceProvider.secure = false;
+    gravatarServiceProvider.protocol = 'http';
 
   }).factory('authInterceptor', function ($rootScope, $q, $localStorage, $location) {
     return {

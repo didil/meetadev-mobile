@@ -1,8 +1,8 @@
 'use strict';
 
 angular.module('meetadev-mobile')
-  .factory('User', function ($resource) {
-    return $resource('/api/users/:id/:controller', {
+  .factory('User', function ($resource,API_ENDPOINT) {
+    return $resource(API_ENDPOINT + '/api/users/:id/:controller', {
       id: '@_id'
     },
     {

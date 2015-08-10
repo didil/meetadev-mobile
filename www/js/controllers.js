@@ -7,12 +7,15 @@ angular.module('meetadev-mobile')
         disableBack: true
       });
 
-      if (Auth.isFreelancer()) {
-        $state.go('tab.freelancer-dash');
-      }
-      else if (Auth.isClient()) {
-        $state.go('client-project-select');
-      }
+      // make sure current user is resolved before rerouting
+      Auth.getCurrentUserAsync(function () {
+        if (Auth.isFreelancer()) {
+          $state.go('tab.freelancer-dash');
+        }
+        else if (Auth.isClient()) {
+          $state.go('client-project-select');
+        }
+      });
     });
   })
 
