@@ -5,3 +5,6 @@ node_modules/
 platforms/
 plugins/
 www/lib/
+private_data/
+sign_align.sh
+.idea/
