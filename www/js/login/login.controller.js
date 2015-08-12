@@ -23,4 +23,8 @@ angular.module('meetadev-mobile')
       }
     };
 
+    $scope.openWebsite = function () {
+      window.open('http://meetadev.herokuapp.com', '_system', 'location=yes')
+    };
+    
   });
